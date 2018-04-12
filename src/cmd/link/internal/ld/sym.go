@@ -74,7 +74,7 @@ func (ctxt *Link) computeTLSOffset() {
 		 * Translate 0(FS) and 8(FS) into -16(FS) and -8(FS).
 		 * Known to low-level assembly in package runtime and runtime/cgo.
 		 */
-	case objabi.Hlinux,
+	case objabi.Hlinux, objabi.Hucore,
 		objabi.Hfreebsd,
 		objabi.Hnetbsd,
 		objabi.Hopenbsd,

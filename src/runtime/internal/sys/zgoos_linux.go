@@ -12,6 +12,7 @@ const GoosDarwin = 0
 const GoosDragonfly = 0
 const GoosFreebsd = 0
 const GoosLinux = 1
+const GoosUcore = 0
 const GoosNacl = 0
 const GoosNetbsd = 0
 const GoosOpenbsd = 0

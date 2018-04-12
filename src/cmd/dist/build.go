@@ -82,6 +82,7 @@ var okgoos = []string{
 	"openbsd",
 	"plan9",
 	"windows",
+	"ucore",
 }
 
 // find reports the first index of p in l[0:n], or else -1.
@@ -1371,6 +1372,7 @@ var cgoEnabled = map[string]bool{
 	"linux/mips64":    true,
 	"linux/mips64le":  true,
 	"linux/s390x":     true,
+	"ucore/386":     true,
 	"android/386":     true,
 	"android/amd64":   true,
 	"android/arm":     true,

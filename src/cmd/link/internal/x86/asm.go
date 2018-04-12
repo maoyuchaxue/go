@@ -752,7 +752,7 @@ func asmb(ctxt *ld.Link) {
 	case objabi.Hdarwin:
 		ld.Asmbmacho(ctxt)
 
-	case objabi.Hlinux,
+	case objabi.Hlinux, objabi.Hucore,
 		objabi.Hfreebsd,
 		objabi.Hnetbsd,
 		objabi.Hopenbsd,

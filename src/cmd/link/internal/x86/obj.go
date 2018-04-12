@@ -98,7 +98,7 @@ func archinit(ctxt *ld.Link) {
 			*ld.FlagRound = 4096
 		}
 
-	case objabi.Hlinux, /* elf32 executable */
+	case objabi.Hlinux, objabi.Hucore, /* elf32 executable */
 		objabi.Hfreebsd,
 		objabi.Hnetbsd,
 		objabi.Hopenbsd:
